@@ -14,7 +14,7 @@ namespace RefactoringToPatterns.ComposeMethod.Tests
             
             list.Add(1);
             
-            Object[] expectedElements = { };
+            object[] expectedElements = { };
             Assert.Equal(expectedElements, list.Elements());
         }
         
@@ -25,7 +25,7 @@ namespace RefactoringToPatterns.ComposeMethod.Tests
             
             list.Add(1);
             
-            Object[] expectedElements = { 1, null, null, null, null, null, null, null, null, null };
+            object[] expectedElements = { 1, null, null, null, null, null, null, null, null, null };
             Assert.Equal(expectedElements, list.Elements());
         }
         
@@ -39,7 +39,7 @@ namespace RefactoringToPatterns.ComposeMethod.Tests
                 list.Add(value);
             }
 
-            Object[] expectedElements = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, null, null, null, null, null, null, null, null, null };
+            object[] expectedElements = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, null, null, null, null, null, null, null, null, null };
             Assert.Equal(expectedElements, list.Elements());
         }
     }
