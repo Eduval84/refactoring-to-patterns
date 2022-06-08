@@ -56,6 +56,7 @@
     <Compile Include="ComposeMethod.Tests\ListShould.cs" />
     <Compile Include="ComposeMethod\IList.cs" />
     <Compile Include="ComposeMethod\List.cs" />
+    <Compile Include="ComposeMethod\ListElements.cs" />
     <Compile Include="CreationMethods.Tests\ProductPackageShould.cs" />
     <Compile Include="CreationMethods\ProductPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
